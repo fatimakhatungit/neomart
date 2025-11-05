@@ -21,8 +21,8 @@ Last change:    00/00/00
                 this.Animation();
                 this.navbarFixed();
                 this.MobileMenu();
-                this.searchModal();
-                this.cartModal();
+                this.searchneomartl();
+                this.cartneomartl();
                 this.rangeSlider();
                 this.MenuSearcher();
                 this.swipperSlider();
@@ -77,8 +77,8 @@ Last change:    00/00/00
                 };
             },
 
-            // search modal js
-            searchModal: function () {
+            // search neomartl js
+            searchneomartl: function () {
                 $('.open-nav').click(function () {
                     $('body').addClass('right-side-nav-activee');
                 });
@@ -88,13 +88,13 @@ Last change:    00/00/00
                 });
             },
 
-            // cart modal js 
-            cartModal: function () {
-                $('.moda-cart-open').click(function () {
-                    $('body').addClass('moda-cart-activee');
+            // cart neomartl js 
+            cartneomartl: function () {
+                $('.neomart-cart-open').click(function () {
+                    $('body').addClass('neomart-cart-activee');
                 });
                 $('.cart-overlay, .cart-close').click(function () {
-                    $('body').removeClass('moda-cart-activee');
+                    $('body').removeClass('neomart-cart-activee');
                 });
             },
 
@@ -137,8 +137,8 @@ Last change:    00/00/00
             },
             // swiperslider 
             swipperSlider: function () {
-                if ($('.moda-banner-slider, .product-fashion-section, .product-category-section, .moda-product-popular, .maan-testimonial-section-five, .moda-product-recently-viewed, .brand-section, .moda-product-shop-section, .related-products-section, .moda-categories-section, .moda-flash-product-wraper, .moda-testimonial-section, .moda-brand-section, .moda-furniture-product-featured, .moda-product-discount-section, .moda-service-section, .moda-tesimonial-section-four, .moda-team-section, .app-screenshots-section, .moda-furniture-testimonial-section').length) {
-                    var swiper = new Swiper(".moda-electronic-banner", {
+                if ($('.neomart-banner-slider, .product-fashion-section, .product-category-section, .neomart-product-popular, .maan-testimonial-section-five, .neomart-product-recently-viewed, .brand-section, .neomart-product-shop-section, .related-products-section, .neomart-categories-section, .neomart-flash-product-wraper, .neomart-testimonial-section, .neomart-brand-section, .neomart-furniture-product-featured, .neomart-product-discount-section, .neomart-service-section, .neomart-tesimonial-section-four, .neomart-team-section, .app-screenshots-section, .neomart-furniture-testimonial-section').length) {
+                    var swiper = new Swiper(".neomart-electronic-banner", {
                         loop: true,
                         spaceBetween: 0,
                         slidesPerView: 1,
@@ -148,7 +148,7 @@ Last change:    00/00/00
                             prevEl: "#electronic-banner-prev",
                         },
                     });
-                    var swiper = new Swiper(".moda-furniture-banner", {
+                    var swiper = new Swiper(".neomart-furniture-banner", {
                         loop: true,
                         spaceBetween: 0,
                         slidesPerView: 1,
@@ -161,7 +161,7 @@ Last change:    00/00/00
                             prevEl: ".swiper-button-prev",
                         },
                     });
-                    var swiper = new Swiper(".moda-service-swiper", {
+                    var swiper = new Swiper(".neomart-service-swiper", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 6,
@@ -254,7 +254,7 @@ Last change:    00/00/00
                         }
                     });
 
-                    var swiper = new Swiper(".moda-team-swiper", {
+                    var swiper = new Swiper(".neomart-team-swiper", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 4,
@@ -296,13 +296,13 @@ Last change:    00/00/00
                             prevEl: ".swiper-button-prev",
                         },
                     });
-                    var swiper = new Swiper(".moda-screenshots-swiper", { 
+                    var swiper = new Swiper(".neomart-screenshots-swiper", { 
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 5,
                         speed: 1000,
                         pagination: {
-                          el: ".moda-screenshot-swiper-pagination",
+                          el: ".neomart-screenshot-swiper-pagination",
                           clickable: true, 
                         },
                         breakpoints: {
@@ -328,7 +328,7 @@ Last change:    00/00/00
                             },
                         }
                       });
-                    var swiper = new Swiper(".moda-testimonial-five-swiper", {
+                    var swiper = new Swiper(".neomart-testimonial-five-swiper", {
                         loop: true,
                         spaceBetween: 0,
                         slidesPerView: 1,
@@ -348,7 +348,7 @@ Last change:    00/00/00
                             prevEl: ".swiper-button-prev",
                         },
                     });
-                    var swiper = new Swiper(".moda-discount-wrapper", {
+                    var swiper = new Swiper(".neomart-discount-wrapper", {
                         loop: true,
                         spaceBetween: 0,
                         slidesPerView: 1,
@@ -358,7 +358,7 @@ Last change:    00/00/00
                             clickable: true,
                         },
                     });
-                    var swiper = new Swiper(".moda-flash-slide-inner", {
+                    var swiper = new Swiper(".neomart-flash-slide-inner", {
                         loop: true,
                         spaceBetween: 0,
                         slidesPerView: 1,
@@ -368,7 +368,7 @@ Last change:    00/00/00
                             prevEl: ".swiper-button-prev",
                         },
                     });
-                    var swiper = new Swiper(".moda-recent-product-wraper", {
+                    var swiper = new Swiper(".neomart-recent-product-wraper", {
                         loop: true,
                         spaceBetween: 25,
                         slidesPerView: 1,
@@ -378,7 +378,7 @@ Last change:    00/00/00
                             prevEl: "#product-prev",
                         },
                     });
-                    var swiper = new Swiper(".moda-tabs-slider-inner", {
+                    var swiper = new Swiper(".neomart-tabs-slider-inner", {
                         loop: true,
                         spaceBetween: 0,
                         slidesPerView: 1,
@@ -422,7 +422,7 @@ Last change:    00/00/00
                             },
                         }
                     });
-                    var swiper = new Swiper(".moda-furniture-testimonial-wraper", {
+                    var swiper = new Swiper(".neomart-furniture-testimonial-wraper", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 4,
@@ -450,7 +450,7 @@ Last change:    00/00/00
                             },
                         }
                     });
-                    var swiper = new Swiper(".moda-furniture-product-slider", {
+                    var swiper = new Swiper(".neomart-furniture-product-slider", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 1,
@@ -462,7 +462,7 @@ Last change:    00/00/00
                             prevEl: ".swiper-button-prev",
                         },
                     });
-                    var swiper = new Swiper(".moda-furniture-product-slider-one", {
+                    var swiper = new Swiper(".neomart-furniture-product-slider-one", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 1,
@@ -514,7 +514,7 @@ Last change:    00/00/00
                             },
                         }
                     });
-                    var swiper = new Swiper(" .moda-related-product-wraper", {
+                    var swiper = new Swiper(" .neomart-related-product-wraper", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 4,
@@ -546,7 +546,7 @@ Last change:    00/00/00
                             },
                         }
                     });
-                    var swiper = new Swiper(".moda-categories-section-wraper", {
+                    var swiper = new Swiper(".neomart-categories-section-wraper", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 4,
@@ -574,7 +574,7 @@ Last change:    00/00/00
                             },
                         }
                     });
-                    var swiper = new Swiper(".moda-testimonial-inner", {
+                    var swiper = new Swiper(".neomart-testimonial-inner", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: "auto",
@@ -628,7 +628,7 @@ Last change:    00/00/00
                             },
                         }
                     });
-                    var swiper = new Swiper(".moda-brand-wraper", {
+                    var swiper = new Swiper(".neomart-brand-wraper", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 5,
@@ -652,7 +652,7 @@ Last change:    00/00/00
                             },
                         }
                     });
-                    var swiper = new Swiper(".moda-brand-wraper-two", {
+                    var swiper = new Swiper(".neomart-brand-wraper-two", {
                         loop: true,
                         spaceBetween: 30,
                         slidesPerView: 6,
@@ -685,7 +685,7 @@ Last change:    00/00/00
 
             // Load more js 
             loadMore: function () {
-                if ($('.moda-product-shop-section').length) {
+                if ($('.neomart-product-shop-section').length) {
                     $(".loadcontent").slice(0, 3).show();
                     $("#loadMore").on("click", function (e) {
                         e.preventDefault();
