@@ -1744,7 +1744,7 @@ input:checked {
   margin-right: 40px;
 }
 .neomart-top-header-logo img {
-  width: 230px;
+  width: 250px;
 }
 
 .neomart-top-header-tow {
@@ -1833,7 +1833,7 @@ input:checked {
 .neomart-header-categories-btn .neomart-all-categories {
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
 }
 .neomart-header-categories-btn .header-categories-btn {
@@ -2260,7 +2260,7 @@ input:checked {
 }
 
 .neomart-hero-wraper-two {
-  max-width: 1430px;
+  max-width: 1430px;  
   height: 85vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2276,7 +2276,7 @@ input:checked {
           transform: translate(-50%);
 }
 .neomart-hero-wraper-two .neomart-hero-item .content {
-  max-width: 670px;
+  max-width: 750px;
 }
 .neomart-hero-wraper-two .neomart-hero-item .content p {
   font-size: 24px;
@@ -2291,6 +2291,7 @@ input:checked {
   line-height: 80px;
   color: #fff;
   margin-bottom: 60px;
+  text-transform: capitalize;
 }
 .neomart-hero-wraper-two .neomart-hero-item .content .neomart-hero-btn-group .border-btn {
   margin-left: 20px;
@@ -13280,7 +13281,7 @@ input:checked {
 }
 .footer-bottom span {
   display: block;
-  text-align: right;
+  text-align: center; 
   font-size: 16px;
   font-weight: 400;
   color: #373737;
