@@ -4924,32 +4924,6 @@ input:checked {
   color: #E60C5E;
 }
 
-.product-page-breadcrumb {
-  background: url(../images/banner/breadcrumb.png) no-repeat center center;
-  background-size: cover;
-}
-
-.product-details-breadcrumb {
-  background: url(../images/banner/1.png) no-repeat center center;
-  background-size: cover;
-}
-
-.cart-pages-breadcrumb {
-  background: url(../images/banner/02.png) no-repeat center center;
-  background-size: cover;
-}
-
-.neomart-about-breadcrumb {
-  background: url(../images/banner/03.png) no-repeat center center;
-  background-size: cover;
-}
-
-.neomart-blog-page-breadcrumb {
-  background: url(../images/banner/04.png) no-repeat center center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
 .neomart-blog-page-breadcrumb h2 {
   color: #fff;
 }
